@@ -7,6 +7,13 @@ body{
 h1, h2, h3, h4, .logo-font{
     font-family: "Sunflower", sans-serif;
 }
+/* 네비게이션  */
+.nav-link.active,
+.nav-link:hover{
+    color: darkblue !important;
+    font-weight: bold;
+}
+
 /* 포트폴리오 섹션 */
 .card-img-top{
     transition: transform .8s;
@@ -22,4 +29,10 @@ h1, h2, h3, h4, .logo-font{
     background-attachment: fixed;
     background-size: cover;
 
+}
+
+/* 푸터 섹션 */
+a{
+    text-decoration: none;
+    color: white;
 }
